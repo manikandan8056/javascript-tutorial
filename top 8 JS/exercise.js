@@ -10,6 +10,14 @@ const reverseString = (str) => {
     return reversed;
 };
 
+const revString=(str)=>{
+    let rev='';
+    for(let i = str.length-1; i>=0; i--){
+        rev +=str[i]
+    }
+    return rev;
+}
+console.log(revString('hello'))
 // Example
 console.log(reverseString("hello"));  // Output: "olleh"
 
@@ -55,7 +63,6 @@ console.log(findMissingNumbers([1, 2, 4, 6, 7, 9]));  // Output: [3, 5, 8]
 
 // Sort an alphanumeric array:
 // *******************************
-
 
 const sortAlphanumericArray = (arr) => {
     for (let i = 0; i < arr.length; i++) {

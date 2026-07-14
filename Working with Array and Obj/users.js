@@ -100,7 +100,7 @@ console.log(unique(arr))
 
 
 // search for a specific value inside a nested object, 
-// you can write a recursive function
+// you can write a
 const data = {
     user: {
       name: "Alice",
@@ -119,13 +119,15 @@ const data = {
       const value = obj[key];
   
       if (typeof value === "object" && value !== null) {
-        if (hasValue(value, target)) return true;
+        if (hasValue(value, target)) 
+          return true;
       } else {
-        if (value === target) return true;
+        if (value === target) 
+          return true;
       }
     }
     return false;
   }
-  console.log(hasValue(data, "New York")); // true
-  console.log(hasValue(data, "dancing"));  // false
-  console.log(hasValue(data, "coding"));   // true    
+console.log(hasValue(data, "New York")); // true
+console.log(hasValue(data, "dancing"));  // false
+console.log(hasValue(data, "coding"));   // true    

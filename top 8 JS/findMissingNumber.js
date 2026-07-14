@@ -11,19 +11,47 @@
 //     return missingNumbers;
 // };
 
-const findMissingNumbers = (arr) =>{
-    const missingNumber = [];
-    const min =Math.min(...arr)
-    const max =Math.max(...arr)
+// const findMissingNumbers = (arr) =>{
+//     const missingNumber = [];
+//     const min =Math.min(...arr)
+//     const max =Math.max(...arr)
 
-    for(let i = min; i<= max; i++){
+//     for(let i = min; i<= max; i++){
+//         if(!arr.includes(i)){
+//             missingNumber.push(i);
+//         }
+//     }
+//     return missingNumber;
+
+// }
+
+
+// function findMissingNumbers(arr){
+//     let missingNumber = [];
+//     let max = Math.max(...arr);
+//     let min = Math.min(...arr);
+//     for(let i =min; i <= max-1; i++){
+//         if(!arr.includes(i))
+//         missingNumber.push(i);
+//     }
+//     return missingNumber;
+// };
+
+// // Example
+// console.log(findMissingNumbers([1, 7, 4, 6, 2, 9]));  // Output: [3, 5, 8]
+
+
+
+function findMissingArr (arr) {
+    let misNum=[];
+    let max = Math.max(...arr);
+    let min = Math.min(...arr);
+    for(let i = min; i <= max-1; i++){
         if(!arr.includes(i)){
-            missingNumber.push(i);
+            misNum.push(i);
         }
     }
-    return missingNumber;
-
+    return misNum;
 }
 
-// Example
-console.log(findMissingNumbers([1, 7, 4, 6, 2, 9]));  // Output: [3, 5, 8]
+console.log(findMissingArr([1, 7, 9]))
