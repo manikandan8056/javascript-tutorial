@@ -20,26 +20,26 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 
 ## 🟢 Easy
 
-- [ ] Reverse an array without `reverse()`
-- [ ] Find the largest element
-- [ ] Find the smallest element
-- [ ] Find the second largest element
-- [ ] Remove duplicates
-- [ ] Count occurrences of each element
-- [ ] Move all zeros to the end
-- [ ] Rotate array left by K
-- [ ] Rotate array right by K
-- [ ] Merge two sorted arrays
+- [✅] Reverse an array without `reverse()`
+- [✅] Find the largest element
+- [✅] Find the smallest element
+- [✅] Find the second largest element
+- [✅] Remove duplicates
+- [✅] Count occurrences of each element
+- [✅] Move all zeros to the end
+- [✅] Rotate array left by K
+- [✅] Rotate array right by K
+- [✅] Merge two sorted arrays
 
 ## 🟡 Medium
 
-- [ ] Flatten nested array (without `flat()`)
-- [ ] Find missing number
-- [ ] Find duplicate numbers
-- [ ] Find intersection of two arrays
-- [ ] Find union of two arrays
-- [ ] Find pair with given sum
-- [ ] Find triplet with given sum
+- [✅] Flatten nested array (without `flat()`)
+- [✅] Find missing number
+- [✅] Find duplicate numbers
+- [✅] Find intersection of two arrays
+- [✅] Find union of two arrays
+- [✅] Find pair with given sum
+- [✅] Find triplet with given sum
 - [ ] Maximum subarray sum (Kadane's Algorithm)
 - [ ] Product of array except self
 - [ ] Leaders in an array
