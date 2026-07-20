@@ -250,7 +250,7 @@ By completing all the questions in this roadmap, you should be comfortable with:
 
 | Topic | Total | Completed |
 |--------|------:|----------:|
-| Arrays | 30 | 0 |
+| Arrays | 30 | 20 |
 | Strings | 30 | 0 |
 | Objects & Maps | 10 | 0 |
 | Recursion | 10 | 0 |
