@@ -1,4 +1,4 @@
-
+// Brute Force
 function findTriplet(arr, target){
 
     for(let i = 0; i < arr.length; i++){

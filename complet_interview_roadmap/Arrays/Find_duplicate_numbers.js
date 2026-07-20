@@ -1,3 +1,4 @@
+// Brute Force
 // function findDuplicates(arr){
 
 //     let seen = [];

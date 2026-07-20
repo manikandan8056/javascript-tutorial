@@ -1,4 +1,4 @@
-// Approach 1
+// Approach 1 Brute Force
 function findIntersection(arr1, arr2){
     let result = [];
 

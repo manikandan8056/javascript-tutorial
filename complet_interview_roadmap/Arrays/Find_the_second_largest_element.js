@@ -1,6 +1,8 @@
 //-Infinity is used in JavaScript when you want to initialize a variable with the smallest possible value, 
 // so that any real number will be larger than it
 
+//Brute Force 
+
 // function findSecondLarge(arr){
 //     if(arr.length < 2) return null;
 //     let largest = -Infinity;

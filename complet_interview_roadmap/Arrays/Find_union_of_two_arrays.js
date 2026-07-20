@@ -1,3 +1,4 @@
+// Brute Force
 // function findUnion(arr1, arr2){
 
 //     let result = [];
@@ -14,6 +15,7 @@
 //     }
 //     return result;
 // }
+
 function findUnion(arr1, arr2){
     let set = new Set();
 
