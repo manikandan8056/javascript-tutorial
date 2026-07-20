@@ -46,8 +46,8 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 
 ## 🔴 Advanced
 
-- [ ] Spiral traversal
-- [ ] Dutch National Flag (0,1,2 sorting)
+- [✅] Spiral traversal
+- [✅] Dutch National Flag (0,1,2 sorting)
 - [ ] Merge intervals
 - [ ] Majority element
 - [ ] Next greater element
