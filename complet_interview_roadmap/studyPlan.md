@@ -47,7 +47,7 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 ## 🔴 Advanced
 
 - [✅] Spiral traversal
-- [✅] Dutch National Flag (0,1,2 sorting)
+- [ ] Dutch National Flag (0,1,2 sorting)
 - [ ] Merge intervals
 - [ ] Majority element
 - [ ] Next greater element
@@ -55,7 +55,7 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 - [ ] Rain Water Trapping
 - [ ] Sliding Window Maximum
 - [ ] Longest Consecutive Sequence
-- [ ] Bubble Sort, Selection Sort, Insertion Sort (without predefined functions)
+- [✅] Bubble Sort, Selection Sort, Insertion Sort (without predefined functions)
 
 ---
 
