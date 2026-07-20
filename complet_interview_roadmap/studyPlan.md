@@ -40,8 +40,8 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 - [✅] Find union of two arrays
 - [✅] Find pair with given sum
 - [✅] Find triplet with given sum
-- [ ] Maximum subarray sum (Kadane's Algorithm)
-- [ ] Product of array except self
+- [✅] Maximum subarray sum (Kadane's Algorithm)
+- [✅] Product of array except self
 - [ ] Leaders in an array
 
 ## 🔴 Advanced
