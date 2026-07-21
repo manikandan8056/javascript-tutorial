@@ -71,8 +71,8 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 - [✅] Find first non-repeating character
 - [✅] Find first repeating character
 - [✅] Capitalize first letter
-- [ ] Reverse words
-- [ ] Check anagram
+- [✅] Reverse words
+- [✅] Check anagram
 
 ## 🟡 Medium
 
