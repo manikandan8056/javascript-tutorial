@@ -63,11 +63,11 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 
 ## 🟢 Easy
 
-- [ ] Reverse a string
-- [ ] Check palindrome
-- [ ] Count vowels
-- [ ] Count consonants
-- [ ] Remove duplicate characters
+- [✅] Reverse a string
+- [✅] Check palindrome
+- [✅] Count vowels
+- [✅] Count consonants
+- [✅] Remove duplicate characters
 - [ ] Find first non-repeating character
 - [ ] Find first repeating character
 - [ ] Capitalize first letter

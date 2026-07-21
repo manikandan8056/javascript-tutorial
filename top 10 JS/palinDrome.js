@@ -8,5 +8,4 @@ function isPalindrom(str){
         console.log(false)
     };
 }
-
 isPalindrom("racecar");
