@@ -24,7 +24,26 @@
 
 // Approach 2: Optimized Using an Object (Hash Map)
 function firstNonRepeatingCharacter(str){
-    
+
+    let frequency = {}; // { a: 2, b: 2, c: 1, d: 2, e: 1 }
+    // frequency counter 
+    for(let i = 0; i < str.length; i++){
+        if(frequency[str[i]]){
+            frequency[str[i]]++;
+        }
+        else{
+            frequency[str[i]] = 1
+        }
+    }
+    // Find first character with count 1
+    for(let i = 0; i < str.length; i++){
+        if(frequency[str[i]] === 1){
+            return str[i]
+        }
+    }
+
+    // return frequency;
+
 }
 
 
