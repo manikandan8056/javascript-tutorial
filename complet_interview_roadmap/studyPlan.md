@@ -76,16 +76,16 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 
 ## 🟡 Medium
 
-- [ ] Longest word
-- [ ] Longest substring without repeating characters
-- [ ] Count character frequency
-- [ ] Compress string
-- [ ] Remove spaces
-- [ ] Toggle case
-- [ ] Check rotation
-- [ ] Find all substrings
-- [ ] String permutations
-- [ ] String combinations
+- [✅] Longest word
+- [✅] Longest substring without repeating characters
+- [✅] Count character frequency
+- [✅] Compress string
+- [✅] Remove spaces
+- [✅] Toggle case
+- [✅] Check rotation
+- [✅] Find all substrings
+- [✅] String permutations
+- [✅] String combinations
 
 ## 🔴 Advanced
 
