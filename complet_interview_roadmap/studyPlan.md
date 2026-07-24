@@ -104,11 +104,11 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 
 # 3. Objects & Maps
 
-- [ ] Difference between Object and Map
-- [ ] Deep copy object
-- [ ] Shallow copy
-- [ ] Merge two objects
-- [ ] Flatten object
+- [✅] Difference between Object and Map
+- [✅] Deep copy object
+- [✅] Shallow copy
+- [✅] Merge two objects
+- [✅] Flatten object
 - [ ] Nested object traversal
 - [ ] Group array by object key
 - [ ] Convert object to array
@@ -251,8 +251,8 @@ By completing all the questions in this roadmap, you should be comfortable with:
 | Topic | Total | Completed |
 |--------|------:|----------:|
 | Arrays | 30 | 21 |
-| Strings | 30 | 10 |
-| Objects & Maps | 10 | 0 |
+| Strings | 30 | 20 |
+| Objects & Maps | 10 | 10 |
 | Recursion | 10 | 0 |
 | Promises | 10 | 0 |
 | Closures | 10 | 0 |
