@@ -1,19 +1,10 @@
-const obj1 = {
-    name: "John",
+
+// Input
+const student = {
+    name: "Rahul",
+    marks: [80, 90, 95],
     address: {
-        city: "Chennai"
+        city: "Delhi"
     }
 };
-
-const obj2 = {
-    address: {
-        pincode: 600001
-    }
-};
-
-const merged = {
-    ...obj1,
-    ...obj2
-};
-
-console.log(merged);
+console.log(flattenObject(student));
