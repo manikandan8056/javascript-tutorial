@@ -109,11 +109,11 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 - [✅] Shallow copy
 - [✅] Merge two objects
 - [✅] Flatten object
-- [ ] Nested object traversal
-- [ ] Group array by object key
-- [ ] Convert object to array
-- [ ] Convert array to object
-- [ ] Count frequency using Map
+- [✅] Nested object traversal
+- [✅] Group array by object key
+- [✅] Convert object to array
+- [✅] Convert array to object
+- [✅] Count frequency using Map
 
 ---
 

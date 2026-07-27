@@ -1,38 +1,23 @@
-function flattenObject(obj, parentKey="", result={}){
+function findKey(obj, target){
     for(let key in obj){
-        let newKey = parentKey? `${parentKey}.${key}` : key;
-        if(typeof obj[key] === "object" && obj[key] !== null && !Array.isArray(obj[key])){
-            flattenObject(obj[key], newKey, result)
+        if(key == target){
+            return obj[key]
         }
-        else{
-            result[newKey] = obj[key]
+        if(typeof obj[key] === "object" && obj[key] !== null){
+            let result = findKey(obj[key], target)
+            if(result !== undefined){
+                return result;
+            } 
         }
     }
-    return result;
-    
 }
 
-// Input
 const company = {
-    name: "ABC",
     employee: {
         personal: {
-            firstName: "John",
-            lastName: "Doe"
-        },
-        address: {
-            city: "Chennai",
-            state: "Tamil Nadu"
+            firstName: "John"
         }
     }
 };
 
-console.log(flattenObject(company)); 
-// Output 
-// {
-//   name: 'ABC',
-//   'employee.personal.firstName': 'John',
-//   'employee.personal.lastName': 'Doe',
-//   'employee.address.city': 'Chennai',
-//   'employee.address.state': 'Tamil Nadu'
-// }
+console.log(findKey(company, "firstName"));
