@@ -4,9 +4,6 @@ function printKeys(obj){
         if(typeof obj[key] == "object" && obj[key] !== null && !Array.isArray(obj[key])){
             printKeys(obj[key])
         }
-        // else{
-
-        // }
     }
 }
 
@@ -21,3 +18,12 @@ const person = {
     }
 };
 printKeys(person)
+
+// output:-
+
+// name
+// address
+// city
+// state
+// location
+// pincode
