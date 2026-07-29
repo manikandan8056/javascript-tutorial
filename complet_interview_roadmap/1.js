@@ -1,23 +1,17 @@
-function findKey(obj, target){
-    for(let key in obj){
-        if(key == target){
-            return obj[key]
-        }
-        if(typeof obj[key] === "object" && obj[key] !== null){
-            let result = findKey(obj[key], target)
-            if(result !== undefined){
-                return result;
-            } 
-        }
+function arrayToObject(arr, key) {
+    const result = {};
+
+    for (const item of arr) {
+        result[item[key]] = item;
     }
+
+    return result;
 }
 
-const company = {
-    employee: {
-        personal: {
-            firstName: "John"
-        }
-    }
-};
+// Example:
+const employees = [
+    { id: 101, name: "John" },
+    { id: 102, name: "Alice" }
+];
 
-console.log(findKey(company, "firstName"));
+console.log(arrayToObject(employees, "id")); // { '101': { id: 101, name: 'John' }, '102': { id: 102, name: 'Alice' } }
