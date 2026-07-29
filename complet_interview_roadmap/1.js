@@ -1,17 +1,10 @@
-function arrayToObject(arr, key) {
-    const result = {};
+// Coding Question 4: Find Most Frequent Element
 
-    for (const item of arr) {
-        result[item[key]] = item;
-    }
-
-    return result;
+// Solution
+function mostFrequent(arr) {
+    const map = new Map();
+    
 }
-
-// Example:
-const employees = [
-    { id: 101, name: "John" },
-    { id: 102, name: "Alice" }
-];
-
-console.log(arrayToObject(employees, "id")); // { '101': { id: 101, name: 'John' }, '102': { id: 102, name: 'Alice' } }
+// Input
+const numbers = [1, 2, 2, 3, 2, 4, 1];
+console.log(mostFrequent(numbers));
