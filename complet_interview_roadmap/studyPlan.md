@@ -47,11 +47,11 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 ## 🔴 Advanced
 
 - [✅] Spiral traversal
-- [ ] Dutch National Flag (0,1,2 sorting)
-- [ ] Merge intervals
-- [ ] Majority element
-- [ ] Next greater element
-- [ ] Stock Buy & Sell
+- [✅] Dutch National Flag (0,1,2 sorting)
+- [✅] Merge intervals
+- [✅] Majority element
+- [✅] Next greater element
+- [✅] Stock Buy & Sell
 - [ ] Rain Water Trapping
 - [ ] Sliding Window Maximum
 - [ ] Longest Consecutive Sequence
@@ -119,13 +119,13 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 
 # 4. Recursion (10 Questions)
 
-- [ ] Factorial
-- [ ] Fibonacci
-- [ ] Sum of array
-- [ ] Reverse string
+- [✅] Factorial
+- [✅] Fibonacci
+- [✅] Sum of array
+- [✅] Reverse string
 - [ ] Binary search
-- [ ] Flatten nested array
-- [ ] Nested object traversal
+- [✅] Flatten nested array
+- [✅] Nested object traversal
 - [ ] Generate subsets
 - [ ] Generate permutations
 - [ ] Tower of Hanoi

@@ -44,7 +44,7 @@ function findSecondLarge(arr){
     return secondLargest === -Infinity ? null : secondLargest;
 
 }
-console.log(findSecondLarge([1,1,1,1]))
-console.log(findSecondLarge([1,2,3,6,4,5,7,8]))
-
+console.log(findSecondLarge([1,2])) // 1
+console.log(findSecondLarge([1,1,1,1])) // null
+console.log(findSecondLarge([1,2,3,6,4,5,7,8])) // 7
 
