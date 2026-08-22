@@ -89,7 +89,7 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 
 ## 🔴 Advanced
 
-- [ ] KMP Pattern Matching
+- [✅] KMP Pattern Matching
 - [ ] Rabin-Karp Algorithm
 - [ ] Longest palindrome
 - [ ] Edit distance
@@ -134,16 +134,16 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 
 # 5. Promises & Async/Await
 
-- [ ] Create a Promise
-- [ ] Promise chaining
-- [ ] Promise.all()
-- [ ] Promise.allSettled()
-- [ ] Promise.race()
-- [ ] Promise.any()
-- [ ] Convert callback to Promise
-- [ ] Implement retry logic
-- [ ] Sequential API calls
-- [ ] Parallel API calls
+- [✅] Create a Promise
+- [✅] Promise chaining
+- [✅] Promise.all()
+- [✅] Promise.allSettled()
+- [✅] Promise.race()
+- [✅] Promise.any()
+- [✅] Convert callback to Promise
+- [✅] Implement retry logic
+- [✅] Sequential API calls
+- [✅] Parallel API calls
 
 ---
 
