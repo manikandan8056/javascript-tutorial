@@ -76,7 +76,7 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 
 ## 🟡 Medium
 
-- [✅] Longest word
+- [✅] Longest word 
 - [✅] Longest substring without repeating characters
 - [✅] Count character frequency
 - [✅] Compress string
