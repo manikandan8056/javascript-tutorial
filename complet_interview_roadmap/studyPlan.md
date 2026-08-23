@@ -149,16 +149,16 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 
 # 6. Closures
 
-- [ ] Counter function
-- [ ] Private variables
-- [ ] Memoization
-- [ ] Function factory
-- [ ] Currying using closure
-- [ ] Debounce
-- [ ] Throttle
-- [ ] Interview closure output questions
-- [ ] Loop with `var` vs `let`
-- [ ] Closure in event listeners
+- [✅] Counter function
+- [✅] Private variables
+- [✅] Memoization
+- [✅] Function factory
+- [✅] Currying using closure
+- [✅] Debounce
+- [✅] Throttle
+- [✅] Interview closure output questions
+- [✅] Loop with `var` vs `let`
+- [✅] Closure in event listeners
 
 ---
 
@@ -196,7 +196,7 @@ Implement the following **without using built-in methods**.
 
 # 9. Event Loop
 
-- [ ] Call Stack
+- [✅] Call Stack
 - [ ] Web APIs
 - [ ] Callback Queue
 - [ ] Microtask Queue
