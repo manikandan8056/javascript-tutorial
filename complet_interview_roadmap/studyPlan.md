@@ -197,15 +197,15 @@ Implement the following **without using built-in methods**.
 # 9. Event Loop
 
 - [✅] Call Stack
-- [ ] Web APIs
-- [ ] Callback Queue
-- [ ] Microtask Queue
-- [ ] Promise execution order
-- [ ] setTimeout(0) behavior
-- [ ] async/await execution
-- [ ] Output prediction questions
-- [ ] Browser Event Loop
-- [ ] Node.js Event Loop phases
+- [✅] Web APIs
+- [✅] Callback Queue
+- [✅] Microtask Queue
+- [✅] Promise execution order
+- [✅] setTimeout(0) behavior
+- [✅] async/await execution
+- [✅] Output prediction questions
+- [✅] Browser Event Loop
+- [✅] Node.js Event Loop phases
 
 ---
 
