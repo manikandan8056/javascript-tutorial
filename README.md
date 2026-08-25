@@ -1,6 +1,10 @@
 # JavaScript Tutorial and Interview Preparation
 
-A collection of JavaScript examples, coding exercises, and interview practice scripts. Each example is kept small and focused so it can be read, edited, and run independently.
+This repository is a practical JavaScript learning and interview-preparation workspace. It progresses from fundamental language exercises to common data-structure problems and advanced browser and asynchronous concepts. The examples are intentionally small, focused, and executable so learners can study the logic, experiment with variations, and verify their solutions quickly.
+
+It is designed for JavaScript developers who want to strengthen problem-solving skills, understand how JavaScript behaves at runtime, and prepare for technical interviews. Topics include arrays, strings, objects and maps, recursion, promises, `async/await`, closures, polyfills, the DOM, and the browser and Node.js event loops.
+
+The repository also contains shorter collections of frequently asked interview questions, earlier practice notes, and examples covering array and object operations. The [complete interview roadmap](complet_interview_roadmap/studyPlan.md) brings these subjects together as a structured checklist, showing completed exercises and areas available for further practice.
 
 ## Start Here
 
