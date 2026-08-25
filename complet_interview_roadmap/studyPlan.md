@@ -166,31 +166,31 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 
 Implement the following **without using built-in methods**.
 
-- [ ] map()
-- [ ] filter()
-- [ ] reduce()
-- [ ] forEach()
-- [ ] find()
-- [ ] some()
-- [ ] every()
-- [ ] call()
-- [ ] apply()
-- [ ] bind()
+- [✅] map()
+- [✅] filter()
+- [✅] reduce()
+- [✅] forEach()
+- [✅] find()
+- [✅] some()
+- [✅] every()
+- [✅] call()
+- [✅] apply()
+- [✅] bind()
 
 ---
 
 # 8. DOM
 
-- [ ] Create element
-- [ ] Remove element
-- [ ] Replace element
-- [ ] Event bubbling
-- [ ] Event capturing
-- [ ] Event delegation
-- [ ] querySelector vs getElementById
-- [ ] innerHTML vs textContent
-- [ ] append vs appendChild
-- [ ] Build Todo App using DOM
+- [✅] Create element
+- [✅] Remove element
+- [✅] Replace element
+- [✅] Event bubbling
+- [✅] Event capturing
+- [✅] Event delegation
+- [✅] querySelector vs getElementById
+- [✅] innerHTML vs textContent
+- [✅] append vs appendChild
+- [✅] Build Todo App using DOM
 
 ---
 
