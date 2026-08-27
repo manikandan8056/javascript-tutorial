@@ -14,7 +14,7 @@ Promise.resolve(10)
         console.log(result);
     });
 
-// Output:
+// Output:-
 // 10
 // 20
 // 25

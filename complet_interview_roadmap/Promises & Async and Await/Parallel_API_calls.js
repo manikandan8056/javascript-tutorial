@@ -1,14 +1,14 @@
 // Parallel means multiple independent operations execute at the same time.
 
-// Suppose:
+// Suppose:-
 
-getUser()
-getProducts()
-getCategories()
+// getUser()
+// getProducts()
+// getCategories()
 
 // None depends on another.
 
-// Don't do:
+// Don't do:-
 
 // const user = await getUser();
 // const products = await getProducts();
@@ -16,7 +16,7 @@ getCategories()
 
 // This is sequential.
 
-// Instead:
+// Instead:-
 
 const [user, products, categories] = await Promise.all([
     getUser(),
@@ -24,7 +24,7 @@ const [user, products, categories] = await Promise.all([
     getCategories()
 ]);
 
-// Flow:
+// Flow:-
 
 //              ┌── getUser()
 //              │
