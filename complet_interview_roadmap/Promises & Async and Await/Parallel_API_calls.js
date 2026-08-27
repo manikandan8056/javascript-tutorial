@@ -10,9 +10,9 @@ getCategories()
 
 // Don't do:
 
-const user = await getUser();
-const products = await getProducts();
-const categories = await getCategories();
+// const user = await getUser();
+// const products = await getProducts();
+// const categories = await getCategories();
 
 // This is sequential.
 

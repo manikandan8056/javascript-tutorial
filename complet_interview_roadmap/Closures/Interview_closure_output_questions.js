@@ -34,7 +34,6 @@ fn();
 fn();
 
 // Output:
-
 // 11
 // 12
 // 13
@@ -57,7 +56,6 @@ console.log(b());
 console.log(b());
 
 // Output:
-
 // 1
 // 2
 // 1

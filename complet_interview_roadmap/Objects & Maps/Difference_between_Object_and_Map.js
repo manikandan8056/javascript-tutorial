@@ -28,7 +28,7 @@ const map = new Map();
 
 map.set("name", "John");
 map.set("age", 25);
-map.set("place", "Chennai")
+map.set("place", "Chennai");
 
 console.log(map.get("name")); // John
 console.log(map.get("age")); // 25

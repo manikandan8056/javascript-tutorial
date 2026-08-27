@@ -5,6 +5,7 @@
 //     }
 //     return result;
 // }
+
 // console.log(reverseArray([1, 2, 3, 4, 5]));
 
 // function findLarge(arr){
@@ -655,17 +656,17 @@
 
 // console.log(selectionSort([5, 2, 9, 1, 5, 6]));  // Output: [ 1, 2, 5, 5, 6, 9 ]
 
-function insertionSort(arr){
-    for(let i = 0; i < arr.length; i++){
-        let currentValue = arr[i];
-        let j = i - 1;
-        while(j >= 0 && arr[j] > currentValue){
-            arr[j+1] = arr[j]
-            j--;
-        }
-        arr[j+1]=currentValue;
-    }
-    return arr;
-}
+// function insertionSort(arr){
+//     for(let i = 0; i < arr.length; i++){
+//         let currentValue = arr[i];
+//         let j = i - 1;
+//         while(j >= 0 && arr[j] > currentValue){
+//             arr[j+1] = arr[j]
+//             j--;
+//         }
+//         arr[j+1]=currentValue;
+//     }
+//     return arr;
+// }
 
-console.log(insertionSort([5,2,9,1,5,6]));// Output: [1, 2, 5, 5, 6, 9]
+// console.log(insertionSort([5,2,9,1,5,6]));// Output: [1, 2, 5, 5, 6, 9]

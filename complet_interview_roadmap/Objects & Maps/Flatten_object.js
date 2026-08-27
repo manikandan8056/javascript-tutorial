@@ -64,7 +64,8 @@
 // 3. If the value is an object, recursively flatten it.
 // 4. Otherwise, store the value using the accumulated key.
 // 5. Return the result.
-// 6. Coding Question 1: Flatten Nested Object
+
+// Coding Question 1: Flatten Nested Object
 
 // Solution
 

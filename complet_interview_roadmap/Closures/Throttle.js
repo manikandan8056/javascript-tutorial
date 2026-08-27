@@ -1,7 +1,7 @@
 // Throttle means:
 // Execute a function at most once within a specified time interval.
 
-// Example:
+// Example:-
 function throttle(fn, delay) {
     let lastCall = 0;
 
@@ -15,7 +15,7 @@ function throttle(fn, delay) {
     };
 }
 
-// Usage:
+// Usage:-
 const handleScroll = throttle(() => {
     console.log("Scrolling");
 }, 1000);

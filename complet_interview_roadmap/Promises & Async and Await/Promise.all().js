@@ -16,13 +16,13 @@ Promise.all([p1, p2, p3])
 
 // ["User", "Orders", "Products"]
 // If one fails?
-const p1 = Promise.resolve("User");
-const p2 = Promise.reject("Order failed");
-const p3 = Promise.resolve("Products");
+// const p1 = Promise.resolve("User");
+// const p2 = Promise.reject("Order failed");
+// const p3 = Promise.resolve("Products");
 
-Promise.all([p1, p2, p3])
-    .then(console.log)
-    .catch(console.log);
+// Promise.all([p1, p2, p3])
+//     .then(console.log)
+//     .catch(console.log);
 
 // Output:
 // Order failed
