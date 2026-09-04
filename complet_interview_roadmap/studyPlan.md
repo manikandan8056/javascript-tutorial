@@ -251,14 +251,14 @@ By completing all the questions in this roadmap, you should be comfortable with:
 | Topic | Total | Completed |
 |--------|------:|----------:|
 | Arrays | 30 | 21 |
-| Strings | 30 | 20 |
+| Strings | 30 | 25 |
 | Objects & Maps | 10 | 10 |
-| Recursion | 10 | 0 |
-| Promises | 10 | 0 |
-| Closures | 10 | 0 |
-| Polyfills | 10 | 0 |
-| DOM | 10 | 0 |
-| Event Loop | 10 | 0 |
+| Recursion | 10 | 6 |
+| Promises | 10 | 10 |
+| Closures | 10 | 10 |
+| Polyfills | 10 | 10 |
+| DOM | 10 | 10 |
+| Event Loop | 10 | 10 |
 
 **Total Questions:** **130+**
 

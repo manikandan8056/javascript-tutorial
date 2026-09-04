@@ -26,6 +26,14 @@ promise
 
 // Using async/await
 
+// async function execute() {
+//     try {
+//         const result = await promise;
+//         console.log(result);
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 async function execute() {
     try {
         const result = await promise;

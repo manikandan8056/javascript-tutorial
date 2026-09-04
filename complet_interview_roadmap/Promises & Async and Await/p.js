@@ -1,11 +1,20 @@
-const p1 = Promise.resolve("User");
-const p2 = Promise.resolve("Orders");
-const p3 = Promise.resolve("Products");
+// const promise = new Promise((resolve, reject) =>{
+//     let success = true;
+//     if(success){
+//         resolve("operation success")
+//     }
+//     else{
+//         reject("operation failed")
+//     }
 
-Promise.all([p1, p2, p3])
-    .then(results => {
-        console.log(results);
-    })
-    .catch(error => {
-        console.log(error);
-    });
+// })
+
+// async function execute(){
+//     try{
+//         const result = await promise
+//         console.log(result);
+//     }catch(error){
+//         console.log(error)
+//     }
+// }
+// execute()
