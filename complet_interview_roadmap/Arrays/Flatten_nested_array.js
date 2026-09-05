@@ -67,3 +67,21 @@ console.log(flattenArray(arr)) // [ 1, 2, 3, 4, 5, 6 ]
 // O(n)
 // result stores all elements.
 // Recursive calls use the call stack.
+
+
+
+// | Function call | `item`        | Is Array?   | Action          | `result`        |
+// | ------------- | ------------- | ------------| ----------------| --------------- |
+// | 1st           | `1`           | ❌          | `push(1)`       | `[1]`           |
+// | 1st           | `[2,[3,4],5]` | ✅          | Recursive call  | `[1]`           |
+// | 2nd           | `2`           | ❌          | `push(2)`       | `[2]`           |
+// | 2nd           | `[3,4]`       | ✅          | Recursive call  | `[2]`           |
+// | 3rd           | `3`           | ❌          | `push(3)`       | `[3]`           |
+// | 3rd           | `4`           | ❌          | `push(4)`       | `[3,4]`         |
+// | 3rd           | —             | —            | `return`       | `[3,4]`         |
+// | 2nd           | —             | —            | spread `[3,4]` | `[2,3,4]`       |
+// | 2nd           | `5`           | ❌          | `push(5)`       | `[2,3,4,5]`     |
+// | 2nd           | —             | —           | `return`        | `[2,3,4,5]`     |
+// | 1st           | —             | —           | spread result   | `[1,2,3,4,5]`   |
+// | 1st           | `6`           | ❌         | `push(6)`        | `[1,2,3,4,5,6]` |
+// | 1st           | —             | —           | `return`        | `[1,2,3,4,5,6]` |
