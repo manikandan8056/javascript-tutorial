@@ -44,6 +44,9 @@
 //     }
 //     return count;
 // }
+
+// console.log(countConsonants("Hello world")) // 7
+
 // function removeDuplicateCharacters(str){
 //     let result = '';
 //     for(let i = 0; i < str.length; i++){
@@ -60,6 +63,8 @@
 //     }
 //     return result;
 // } 
+
+
 // console.log(removeDuplicateCharacters("programming"));
 
 
