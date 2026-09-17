@@ -485,7 +485,7 @@
 //             frequency[i] = 1
 //         }
 //     }
-//      // Find majority element
+//     // Find majority element
 //     for(let key in frequency){
 //         // console.log(key);
 //         if(frequency[key] > arr.length / 2){

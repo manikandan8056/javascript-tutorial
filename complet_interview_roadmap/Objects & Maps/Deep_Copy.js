@@ -35,7 +35,7 @@ const user1 = {
 const user2 = user1;
 
 user2.name = "mani"
-console.log(user2); // { name: 'mani', address: { city: 'Chennai' } }
+console.log(user1,user2); // { name: 'mani', address: { city: 'Chennai' } }
 
 
 // Both variables reference the same object.

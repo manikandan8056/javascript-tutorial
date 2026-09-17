@@ -51,7 +51,7 @@
 //     let result = '';
 //     for(let i = 0; i < str.length; i++){
 //         let found = false
-//         for(let j = 0; j < str.length; j++){
+//         for(let j = i+1; j < str.length; j++){
 //             if(str[i] === result[j]){
 //                 found = true;
 //                 break;
