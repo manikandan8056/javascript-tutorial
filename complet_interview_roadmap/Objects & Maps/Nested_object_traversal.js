@@ -330,11 +330,7 @@ function traverse(obj) {
     for (const key in obj) {
         console.log(key, obj[key]);
 
-        if (
-            obj[key] !== null &&
-            typeof obj[key] === "object" &&
-            !Array.isArray(obj[key])
-        ) {
+        if (obj[key] !== null && typeof obj[key] === "object" && !Array.isArray(obj[key])) {
             traverse(obj[key]);
         }
     }

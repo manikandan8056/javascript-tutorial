@@ -50,7 +50,7 @@ This repository contains a structured roadmap for preparing JavaScript coding in
 - [✅] Dutch National Flag (0,1,2 sorting)
 - [✅] Merge intervals
 - [✅] Majority element
-- [✅] Next greater element
+- [✅] Next greater element 
 - [✅] Stock Buy & Sell
 - [ ] Rain Water Trapping
 - [ ] Sliding Window Maximum
