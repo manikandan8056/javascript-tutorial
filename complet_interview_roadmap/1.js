@@ -112,3 +112,84 @@ function getClickSummary(events){
 console.log(getClickSummary(events));
 //OUTPUT
 // {"click":{"unique_user":3,"total_events":4,"meta":{"buttonid":{"save":1,"cancel":2,"delete":1}}}}
+
+
+// // 5 Given a string s with words separated by space, reverse the words in the string
+ 
+// // let s = "meet me there"
+
+// // output = "there me meet"
+
+
+// function reversWord(str){
+//   let word = [];
+//   let currentWord ='';
+
+//   for(let i = 0; i < str.length; i++){
+//     if(str[i] !== ' '){
+//       currentWord +=str[i];
+//       // console.log(currentWord)
+//     }
+//     else{
+//       word.push(currentWord);
+//       currentWord = '';
+//     }
+//   }
+//   word.push(currentWord);
+//   // return word
+//   let result = '';
+//   for(let i = word.length-1; i >= 0; i--){
+//     result +=word[i]
+//     if(word[i] != 0){
+//       result +=' '
+//     }
+//   }
+//   return result;
+  
+// }
+
+// console.log(reversWord("meet me there"))
+
+
+
+
+
+// Count of occurrences of one string in a second string
+
+// let s1 = "meet"
+// let s2 = "googlemeetmemeet"
+
+// function countStr(s1, s2){
+//   let result = {};
+
+//   for(let i of s2){
+//     if(result[i]){
+//       result[i]++
+//     }
+//     else{
+//       result[i] = 1
+//     }
+//   }
+//   // return result; //{ g: 2, o: 2, l: 1, e: 6, m: 3, t: 2 }
+//   let count = [];
+//   let s = s1.split('')
+//   // return s
+//   for(let j in result){
+//     if(s.includes(j)){
+//       count.push(j);
+//     }
+//   }
+//   return count;
+// }
+
+
+function countStr(s1, s2){
+  for(let i = 0; i < s1.length; i++){
+    for(let j = 0; i < s2.length; i++){
+      if(s1[i] == s2[j]){
+        return s2[j]
+      }
+    }
+  }
+}
+console.log(countStr("meet","googlemeetmemeet"))

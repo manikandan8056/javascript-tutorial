@@ -425,3 +425,30 @@
 // console.log(KMP("Hello World", "JavaScript"));
 
 
+function countStr(s1, s2) {
+  let count = 0;
+  
+  for (let i = 0; i <= s2.length - s1.length; i++) {
+    let j = 0;
+
+    while (j < s1.length && s2[i + j] === s1[j]) {
+      j++;
+    }
+
+    if (j === s1.length) {
+      count++;
+      i += s1.length - 1;
+    }
+  }
+
+  return count;
+}
+
+console.log(countStr("meet", "googlemeetmemeet")); // 2
+
+
+// function countStr(s1, s2) {
+//   return s2.split(s1).length - 1;
+// }
+
+// console.log(countStr("meet", "googlemeetmemeet")); // 2
