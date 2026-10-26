@@ -428,7 +428,7 @@
 function StrCount(s1, s2) {
   let count = 0;
 
-   // Start time before loop
+  // Start time before loop
   // const startTime = performance.now();
 
   for (let i = 0; i <= s2.length - s1.length; i++) {
