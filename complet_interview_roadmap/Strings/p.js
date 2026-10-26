@@ -425,9 +425,12 @@
 // console.log(KMP("Hello World", "JavaScript"));
 
 
-function countStr(s1, s2) {
+function StrCount(s1, s2) {
   let count = 0;
-  
+
+   // Start time before loop
+  // const startTime = performance.now();
+
   for (let i = 0; i <= s2.length - s1.length; i++) {
     let j = 0;
 
@@ -437,18 +440,21 @@ function countStr(s1, s2) {
 
     if (j === s1.length) {
       count++;
-      i += s1.length - 1;
+      // i += s1.length - 1;
     }
   }
+  // End time after loop
+  // const endTime = performance.now();
+  // console.log("Execution Time:", endTime - startTime, "ms");
 
   return count;
 }
 
-console.log(countStr("meet", "googlemeetmemeet")); // 2
+console.log(StrCount("meet", "googlemeetmemeet")); // 2
 
 
-// function countStr(s1, s2) {
+// function StrCount(s1, s2) {
 //   return s2.split(s1).length - 1;
 // }
 
-// console.log(countStr("meet", "googlemeetmemeet")); // 2
+// console.log(StrCount("meet", "googlemeetmemeet")); // 2
