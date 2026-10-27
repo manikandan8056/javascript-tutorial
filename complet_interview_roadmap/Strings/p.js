@@ -6,11 +6,12 @@
 //     }
 //     return result;
 // }
-// console.log(reverseString('ihturS uoy evoL I')); // I Love you Sruthi
+// console.log(reverseString('tpircsavaJ evoL I')); // I Love Javascript 
 
-//
+
 // function isPalindrom(str){
 //     let check = str.split().reverse().join();
+//     // let check = reverseString(str);
 //     if(check === str){
 //         console.log('true')
 //     }
@@ -143,7 +144,7 @@
 // function capitalizeWords(str){
 //     return str.split(" ").map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")
 // }
-// console.log(capitalizeWords("i love you sruthi"));  // Output: "I Love You Sruthi"
+// console.log(capitalizeWords("i love Javascript"));  // Output: "I Love Javascript"
 
 // function reverseWords(str){
 //     return str.split(" ").reverse().join(" ")
@@ -187,7 +188,7 @@
 //     }
 //     return result
 // }
-// console.log(reverseWords("Suruthi You Love I"));// I Love You Sruthi
+// console.log(reverseWords("Javascript Love I"));// I Love Javascript
 
 // function checkAnagram(str1, str2){
 //     let sort1 = str1.split("").sort().join("");
@@ -425,32 +426,33 @@
 // console.log(KMP("Hello World", "JavaScript"));
 
 
-function StrCount(s1, s2) {
-  let count = 0;
+// function StrCount(s1, s2) {
+//   let count = 0;
 
-  // Start time before loop
-  // const startTime = performance.now();
+//   // Start time before loop
+//   // const startTime = performance.now();
 
-  for (let i = 0; i <= s2.length - s1.length; i++) {
-    let j = 0;
+//   for (let i = 0; i <= s2.length - s1.length; i++) {
+//     
 
-    while (j < s1.length && s2[i + j] === s1[j]) {
-      j++;
-    }
 
-    if (j === s1.length) {
-      count++;
-      // i += s1.length - 1;
-    }
-  }
-  // End time after loop
-  // const endTime = performance.now();
-  // console.log("Execution Time:", endTime - startTime, "ms");
+//     while (j < s1.length && s2[i + j] === s1[j]) {
+//       j++;
+//     }
 
-  return count;
-}
+//     if (j === s1.length) {
+//       count++;
+//       // i += s1.length - 1;
+//     }
+//   }
+//   // End time after loop
+//   // const endTime = performance.now();
+//   // console.log("Execution Time:", endTime - startTime, "ms");
 
-console.log(StrCount("meet", "googlemeetmemeet")); // 2
+//   return count;
+// }
+
+// console.log(StrCount("meet", "googlemeetmemeet")); // 2
 
 
 // function StrCount(s1, s2) {
