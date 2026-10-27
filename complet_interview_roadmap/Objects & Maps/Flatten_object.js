@@ -298,7 +298,7 @@ function flattenObject(obj, parent = "", result = {}) {
         const newKey = parent ? `${parent}.${key}` : key;
         const value = obj[key];
 
-        if (value !== null && typeof value === "object" && !Array.isArray(value)) {
+        if (typeof value === "object" && value !== null  && !Array.isArray(value)) {
             flattenObject(value, newKey, result);
         } else {
             result[newKey] = value;
