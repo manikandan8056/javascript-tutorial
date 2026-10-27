@@ -183,13 +183,69 @@ console.log(getClickSummary(events));
 // }
 
 
-function countStr(s1, s2){
-  for(let i = 0; i < s1.length; i++){
-    for(let j = 0; i < s2.length; i++){
-      if(s1[i] == s2[j]){
-        return s2[j]
-      }
-    }
-  }
-}
-console.log(countStr("meet","googlemeetmemeet"))
+
+// const events = [
+//   { type: "click", userId: "u1", meta: { buttonId: "save" } },
+//   { type: "view", userId: "u2", meta: { page: "/home" } },
+//   { type: "click", userId: "u1", meta: { buttonId: "cancel" } },
+//   { type: "view", userId: "u3", meta: { page: "/dashboard" } },
+//   { type: "hover", userId: "u2", meta: { target: "toolbar.save" } },
+//   { type: "click", userId: "u3", meta: { buttonId: "delete" } },
+//   { type: "view", userId: "u1", meta: { page: "/reports" } },
+//   { type: "hover", userId: "u4", meta: { target: "card.summary" } },
+//   { type: "view", userId: "u5", meta: { page: "/settings" } },
+//   { type: "click", userId: "u2", meta: { buttonId: "cancel" } },
+//   { type: "hover", userId: "u3", meta: { target: "toolbar.save" } }
+// ];
+
+// function getEventSummary(events) {
+//   let summary = {};
+
+//   for (let event of events) {
+//     let { type, userId, meta } = event;
+
+//     // Create a summary for each event type
+//     if (!summary[type]) {
+//       summary[type] = {
+//         uniqueUsers: new Set(),
+//         totalEvents: 0,
+//         meta: {}
+//       };
+//     }
+
+//     let current = summary[type];
+
+//     // Count total events
+//     current.totalEvents++;
+
+//     // Track unique users
+//     current.uniqueUsers.add(userId);
+
+//     // Count metadata values dynamically
+//     for (let key in meta) {
+//       let value = meta[key];
+
+//       if (!current.meta[key]) {
+//         current.meta[key] = {};
+//       }
+
+//       current.meta[key][value] =
+//         (current.meta[key][value] || 0) + 1;
+//     }
+//   }
+
+//   // Convert Sets into counts before returning JSON
+//   let result = {};
+
+//   for (let type in summary) {
+//     result[type] = {
+//       unique_users: summary[type].uniqueUsers.size,
+//       total_events: summary[type].totalEvents,
+//       meta: summary[type].meta
+//     };
+//   }
+
+//   return JSON.stringify(result, null, 2);
+// }
+
+// console.log(getEventSummary(events));
