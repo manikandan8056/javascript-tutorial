@@ -31,7 +31,7 @@
 //     return smallestVal;
 // }
 
-// console.log(findSmall([1,2,3,6,4,5,7])) // 1
+// console.log(findSmall([7,2,3,6,4,5,1])) // 1
 
 // function findSecondLarge(arr){
 //     if(arr.length < 2) return null;
@@ -109,6 +109,7 @@
 //     }
 //     return result;
 // }
+
 // console.log(moveZerosEnd([1, 0, 2, 0, 4, 6, 0, 7, 8])); // [ 1, 2, 4, 6, 7, 8, 0, 0, 0 ]
 
 // function rotateLeft(arr, k){
@@ -132,7 +133,20 @@
 // }
 
 // console.log(rotateLeft([1,2,3,4,5],2)); //[ 3, 4, 5, 1, 2 ]
+// function rotateRight(arr,k){
+//     let result = [];
+//     let n = arr.length;
+//     k = k % n;
+//     for(let i = n-k; i < n; i++){
+//         result.push(arr[i])
+//     }
+//     for(let i = 0; i < n-k; i++){
+//         result.push(arr[i])
+//     }
+//     return result;
 
+// }
+// console.log(rotateRight([1,2,3,4,5],2)); // [4,5,1,2,3]
 // function mergeSortedArrays(arr1, arr2){
 //     let result =[];
 //     let i = 0;
@@ -158,6 +172,7 @@
 //     }
 //     return result;
 // }
+
 // console.log(mergeSortedArrays([1,3,5,7,9],[2,4,6,8,10]));// [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 
 // function flattenArray(arr){
@@ -189,6 +204,7 @@
 //     }
 //     return result;
 // }
+
 // console.log(findMissingNumbers([1, 7, 4, 6, 2, 9]));// [ 3, 5, 8 ]
 
 // function findDuplicates(arr){
@@ -218,6 +234,7 @@
 //     }
 //     return duplicate;
 // }
+
 // console.log(findDuplicates([1,2,3,2,4,5,1,6,5]));// [ 2, 1, 5 ]
 
 //find commen element 
@@ -243,6 +260,7 @@
 //     }
 //     return result;
 // }
+
 // console.log(findIntersection([1,2,3,4,5], [3,4,5,6,7])); // [ 3, 4, 5 ]
 
 // Find union of two arrays
@@ -277,6 +295,7 @@
 //     }
 //     return [...set]
 // }
+
 // console.log(findUnion([1,2,3,4], [3,4,5,6])); // [ 1, 2, 3, 4, 5, 6 ]
 
 // Find pair with given sum
@@ -321,6 +340,7 @@
 //     }
 //     return maxSum;
 // }
+
 // console.log(maximumSubarraySum([-2,1,-3,4,-1,2,1,-5,4])); // 6
 
 // function productExceptSelf(arr){
@@ -336,7 +356,20 @@
 //     }
 //     return result;
 // }
-// console.log(productExceptSelf([1,2,3,4])); // [ 24, 12, 8, 6 ]
+function productExceptSelf(arr){
+    let result = [];
+    for(let i = 0; i < arr.length; i++){
+        let productItSelf = 1;
+        for(let j = 0; j < arr.length; j++){
+            if(i !== j){
+                productItSelf *= arr[j];
+            }
+        }
+        result.push(productItSelf)
+    }
+    return result;
+}
+console.log(productExceptSelf([1,2,3,4])); // [ 24, 12, 8, 6 ]
 
 
 // function findLeaders(arr){
@@ -415,6 +448,35 @@
 //         else{
 //             result.push(current);
 //         } 
+//     }
+//     return result;
+// }
+
+// function mergeIntervals(intervals) {
+//     if (intervals.length === 0) {
+//         return [];
+//     }
+
+//     // Step 1: Sort intervals by their starting value
+//     intervals.sort((a, b) => a[0] - b[0]);
+
+//     // Step 2: Initialize the result
+//     const result = [intervals[0]];
+    
+//     // Step 3: Check each interval
+//     for (let i = 1; i < intervals.length; i++) {
+//         const current = intervals[i];
+//         const last = result[result.length - 1];
+//         console.log("check_last",last);
+
+//         // Step 4: Check if intervals overlap
+//         if (current[0] <= last[1]) {
+//             // Merge overlapping intervals
+//             last[1] = Math.max(last[1], current[1]);
+//         } else {
+//             // No overlap, add a new interval
+//             result.push(current);
+//         }
 //     }
 //     return result;
 // }
